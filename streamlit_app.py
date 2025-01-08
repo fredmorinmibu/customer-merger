@@ -96,7 +96,7 @@ if fichier1 and fichier2 and colonnes_selectionnees:
                 })
             else:
                 # 2) Sinon, on effectue un score global pondéré sur toutes les colonnes sélectionnées
-                total_score = 0
+                total_score = 0               
                 total_poids = 0
 
                 for col in colonnes_selectionnees:
@@ -137,3 +137,4 @@ if fichier1 and fichier2 and colonnes_selectionnees:
         )
     else:
         st.write("Aucun doublon trouvé.")
+
